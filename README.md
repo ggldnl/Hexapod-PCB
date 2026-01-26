@@ -27,7 +27,7 @@ For a complete overview of the project, refer to the [main Hexapod repository](h
 
 Approximate cost for PCB manufacturing: around 50€
 Approximate cost for PCB assembly (only SMD components): around 30€
-Approximate cost for sourcing TH components: around 10€ (assorted pack on Amazon containing a lot more than what you will need for the build)
+Approximate cost for sourcing TH components: around 10€ (assorted pack of headers on Amazon containing a lot more than what you will need for the build)
 
 PCB manufacturing and assembly for this project are sponsored by [PCBWay](https://www.pcbway.com/). The boards came back perfect and I can’t recommend their service enough.
 
@@ -39,6 +39,7 @@ PCB manufacturing and assembly for this project are sponsored by [PCBWay](https:
 
 1. Some ground connections are not enforced, a DRC check will fail. The problem lies on some ground pins on both the Raspberry and the Servo2040. These are internnally connected so it won't cause any issue.
 2. The traces carrying current to the motors should be fine (1.524 mm wide, 1oz, top layer) for the load I expect, but I'll keep an eye on them to check if they overheat.
+3. The traces carrying signals from the servo2040 to the pins at the bottom of the PCB are a bit long, but this shouldn't be a problem.
 
 ## 🤝 Contribution
 
