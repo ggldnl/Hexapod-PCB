@@ -15,7 +15,9 @@ For a complete overview of the project, refer to the [main Hexapod repository](h
 
 ## 🔧 Components
 
-| **Component**           | **Quantity** | **Notes**                           | **TH/SMD*** | **Optional** |
+<div align="center>
+
+| Component               | Quantity     | Notes                               | TH/SMD      | Optional     |
 |-------------------------|--------------|-------------------------------------|-------------|--------------|
 | 1x3 male header         | 24           | Connect the motors to the PCB       | TH          | No           |
 | 1x3 female header       | 24           | Connect the motor headers on the Servo2040 to the PCB | TH | No  |
@@ -23,7 +25,9 @@ For a complete overview of the project, refer to the [main Hexapod repository](h
 | 2x20 female header      | 1            | Connect the Raspberry to the PCB    | TH          | No           |
 | 0603 LED                | 1            | Signal 5V                           | SMD         | YES          |
 | 100 ohm 0603 resistor   | 1            | LED                                 | SMD         | YES          |
-| ITS4141NHUMA1           | 1            | Smart high-side power switch for indusrial applications | SMD | NO |
+| ITS4141NHUMA1           | 1            | Smart high-side power switch        | SMD         | NO           |
+
+</div>
 
 Approximate cost for PCB manufacturing: around 50€
 Approximate cost for PCB assembly (only SMD components): around 30€
