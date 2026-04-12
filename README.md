@@ -11,8 +11,12 @@ PCB manufacturing and assembly for this project are sponsored by [PCBWay](https:
 <div align="center">
   <table>
     <tr>
-      <td><img src="media/render.png" alt="Render" style="height:500px;"></td>
-      <td><img src="media/PCB.jpg" alt="PCB" style="height:500px;"></td>
+      <td>
+        <img src="media/render.png" alt="Render" style="max-height:500px; width:auto;">
+      </td>
+      <td>
+        <img src="media/PCB.jpg" alt="PCB" style="max-height:500px; width:auto;">
+      </td>
     </tr>
   </table>
 </div>
