@@ -9,14 +9,8 @@ For a complete overview of the project, refer to the [main Hexapod repository](h
 PCB manufacturing and assembly for this project are sponsored by [PCBWay](https://www.pcbway.com/). They produced the PCB and handled the SMD assembly. The boards came back perfect, I can't recommend their service enough.
 
 <div align="center">
-    <tr>
-      <td>
-        <img src="media/render.png" alt="Render" style="max-height:500px; width:auto;">
-      </td>
-      <td>
-        <img src="media/PCB.jpg" alt="PCB" style="max-height:500px; width:auto;">
-      </td>
-    </tr>
+  <img src="media/render.png" alt="Render" style="max-height:500px; width:auto; margin:5px;">
+  <img src="media/PCB.jpg" alt="PCB" style="max-height:500px; width:auto; margin:5px;">
 </div>
 
 Overall, the quality of both the PCB and the assembly was solid, and it made the whole process of getting the hardware up and running much easier. Their service saved me a lot of time and effort.
