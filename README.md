@@ -27,7 +27,7 @@ They also offer a wide range of other services: standard and advanced PCB manufa
 
 ## 📝 Notes
 
-The images refer to a previous version of the PCB. The SMD component on the top right corner (ITS4141NHUMA1) is a power switch intended to cut off the current to the servos in case they stalled (current draw rise above a certain threshold). Unfortunately, I made a mistake and ended up with a component that has a different operating voltage from what the servos expect. This meant the switch wouldn't have worked so I had to scrap the feature. This is entirely my own fault and by no means PCBWay's - in fact, they did an impeccable job with the board.
+The images refer to a previous version of the PCB. The SMD component on the top right corner (ITS4141NHUMA1) is a power switch intended to cut off the current to the servos in case they stalled (current draw rise above a certain threshold). Unfortunately, I made a mistake and ended up with a component that has a different operating voltage from what the servos expect. This meant the switch wouldn't have worked so I had to scrap the feature. This is entirely my own fault and by no means PCBWay's - in fact, they did an impeccable job with the boards.
 
 The current version of the board does NOT have this component. Contributions to improve this part of the schematics are welcome.
 
