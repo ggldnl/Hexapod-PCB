@@ -6,7 +6,11 @@ For a complete overview of the project, refer to the [main Hexapod repository](h
 
 ## 💡 PCBWay
 
-PCB manufacturing and assembly for this project are sponsored by [PCBWay](https://www.pcbway.com/). They produced the PCB and handled the SMD assembly. The boards came back perfect, I can't recommend their service enough.
+PCB manufacturing and assembly for this project are sponsored by [PCBWay](https://www.pcbway.com/). They handled both the fabrication of the PCB and the SMD assembly.
+
+The boards came back flawless. Build quality was solid and everything was cleanly assembled. 
+
+The whole process — from uploading the design files to receiving the finished boards — was straightforward and didn’t require much back-and-forth. That made it easy to go from design to a working board without friction in the process.
 
 <div align="center">
   <table>
@@ -17,15 +21,18 @@ PCB manufacturing and assembly for this project are sponsored by [PCBWay](https:
   </table>
 </div>
 
-Overall, the quality of both the PCB and the assembly was solid, and it made the whole process of getting the hardware up and running much easier. Their service saved me a lot of time and effort.
+Their service saved me a lot of time and effort, while still being affordable and fast.
 
-The PCB organizes the cables in such a way the ports for the Raspberry and the Servo2040 are easily accessible.
+They also offer a wide range of other services: standard and advanced PCB manufacturing, assembly, SMD stencil creation, CNC machining and 3D printing to name a few, all with a countless configuration options. If you ever need to turn a design into a physical part, you can just rely on them.
 
 ## 📝 Notes
 
 The images refer to a previous version of the PCB. The SMD component on the top right corner (ITS4141NHUMA1) is a power switch intended to cut off the current to the servos in case they stalled (current draw rise above a certain threshold). Unfortunately, I made a mistake and ended up with a component that has a different operating voltage from what the servos expect. This meant the switch wouldn't have worked so I had to scrap the feature. This is entirely my own fault and by no means PCBWay's - in fact, they did an impeccable job with the board.
 
 The current version of the board does NOT have this component. Contributions to improve this part of the schematics are welcome.
+
+The PCB organizes the cables in such a way the ports for the Raspberry and the Servo2040 are easily accessible.
+
 
 ## 🔧 Components
 
